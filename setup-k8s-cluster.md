@@ -49,15 +49,15 @@ vim inventory/mykube/inventory.ini
 
 # inventory.ini
 [kube_control_plane]
-kube-control1   ansible_host=192.168.56.11 ip=192.168.56.11 ansible_connection=local
+kube-control1   ansible_host=192.168.76.11 ip=192.168.76.11 ansible_connection=local
 
 [etcd:children]
 kube_control_plane
 
 [kube_node]
-kube-node1      ansible_host=192.168.56.21 ip=192.168.56.21
-kube-node2      ansible_host=192.168.56.22 ip=192.168.56.22
-kube-node3      ansible_host=192.168.56.23 ip=192.168.56.23
+kube-node1      ansible_host=192.168.76.21 ip=192.168.76.21
+kube-node2      ansible_host=192.168.76.22 ip=192.168.76.22
+kube-node3      ansible_host=192.168.76.23 ip=192.168.76.23
 ```
 
 - 어떤 노드가 control plane인지, worker인지, etcd인지 등을 정의하는 핵심 파일.
