@@ -115,7 +115,7 @@ kube_proxy_strict_arp: true
 
 ---
 
-## 2) SSH 무비밀번호 접속 준비 (Ansible가 노드에 접속해야 함)
+## 2) SSH 키 기반 접속 준비 (Ansible가 노드에 접속해야 함)
 
 ### SSH 키 생성
 
