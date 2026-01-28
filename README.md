@@ -32,15 +32,3 @@ Kubernetes 기반 토이 프로젝트 문서입니다.
 - CI/CD 대상 서비스: https://github.com/SAMJOYAP/sejin-app-repo
 
 ---
-
-## 🗂️ Repository Structure
-
-```text
-sejin-doc-repo
-├── k8s-toy/
-│   ├── 01-react-dockerize-and-build.md
-│   ├── 02-k8s-deployment-and-nodeport-service.md
-│   ├── 03-github-actions-cicd.md
-│   └── 04-self-hosted-runner-setup.md
-└── README.md
-```
