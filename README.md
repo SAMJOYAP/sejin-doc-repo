@@ -7,7 +7,8 @@
 
 ## 📁 Projects
 
-### 📦 k8s-toy
+<details>
+<summary>📦 1. k8s-toy</summary>
 
 Kubernetes 기반 토이 프로젝트 문서입니다.  
 로컬 클러스터 구성부터 애플리케이션 배포, CI/CD 자동화까지의 전체 흐름을 다룹니다.
@@ -30,5 +31,29 @@ Kubernetes 기반 토이 프로젝트 문서입니다.
 
 - App Repository: https://github.com/SAMJOYAP/sejin-app-repo
 - CI/CD 대상 서비스: https://github.com/SAMJOYAP/sejin-app-repo
+</details>
+
+<details>
+<summary>📦 2. aws-eks-toy</summary>
+
+AWS EKS 기반 인프라 구축 및 애플리케이션 배포 연습 프로젝트입니다.  
+Terraform으로 EKS를 구성하고, Helm으로 애드온과 앱을 배포합니다.
+
+- **EKS / Infra**
+  - VPC, 서브넷, 라우팅 기본 구성
+  - EKS 클러스터 및 노드 그룹 생성
+
+- **Addons**
+  - AWS Load Balancer Controller
+  - (선택) ExternalDNS
+
+- **App / DB**
+  - Helm을 통한 앱 및 데이터베이스 배포
+  - Ingress로 외부 노출
+
+🔗 관련 레포지토리
+
+- Terraform Repo: https://github.com/SAMJOYAP/sejin-terraform-toy-repo
+</details>
 
 ---
