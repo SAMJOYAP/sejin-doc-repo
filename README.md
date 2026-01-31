@@ -29,8 +29,9 @@ Kubernetes 기반 토이 프로젝트 문서입니다.
 
 🔗 관련 레포지토리
 
-- App Repository: https://github.com/SAMJOYAP/sejin-app-repo
-- CI/CD 대상 서비스: https://github.com/SAMJOYAP/sejin-app-repo
+- Frtonend app: https://github.com/SAMJOYAP/sejin-app-repo
+- Backend app: https://github.com/SAMJOYAP/sejin-node-app-repo
+- CI/CD: 현재는 https://github.com/SAMJOYAP/sejin-app-repo -> 추후 별도의 레포지토리로 관리
 </details>
 
 <details>
